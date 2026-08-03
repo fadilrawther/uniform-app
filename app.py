@@ -1,6 +1,6 @@
 import streamlit as st
 import gspread
-from google.oauth2.service_account
+from  google.oauth2.service_account
 import Credentials
 #connect to google sheets
 scope=
