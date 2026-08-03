@@ -8,7 +8,7 @@ scope=
 
 creds=
 Credentials.from_service_account_info(
-    "st.secrets["gcp_service_account"],
+    st.secrets["gcp_service_account"],
     scope=scope
 )    
 client=gspread.authorize(creds)
